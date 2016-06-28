@@ -1,0 +1,3 @@
+package: gorex-demo
+import:
+- package: github.com/bevanhunt/gorex
