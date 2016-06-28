@@ -42,5 +42,6 @@ func main() {
 	}
 	resp := &JSONReceive{}
 	res.JSON(resp)
-	fmt.Println(resp)
+	// should print - this is a fancy book
+	fmt.Println(resp.Body)
 }

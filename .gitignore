@@ -28,4 +28,4 @@ _testmain.go
 vendor
 
 # for go build
-gorex-demo
+gorex-json-demo
