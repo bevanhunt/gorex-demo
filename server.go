@@ -31,8 +31,7 @@ func main() {
 	}
 	req, err := gorex.Request{
 		URI:     "http://jsonplaceholder.typicode.com/posts",
-		Method:  "POST",
-		Timeout: timeout}.JSON(jsonData)
+		Timeout: timeout}.PostJSON(jsonData)
 	if err != nil {
 		fmt.Println(err)
 	}
