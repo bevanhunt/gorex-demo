@@ -1,6 +1,6 @@
-hash: 419983709a64724359c8d4bacd85432b5b7c2db98345f140eed475971fc3d843
-updated: 2016-06-28T14:59:09.671403642-07:00
+hash: 0bb6985ece33c10db27d18db467b002d8ed303fb4fcf564328bc0a66e87136df
+updated: 2016-07-12T09:52:06.472015234-07:00
 imports:
-- name: github.com/bevanhunt/gorex
-  version: 9b4de1a4bc9a97c3131e1ee318b9c349d3908822
+- name: github.com/bevanhunt/gowrex
+  version: 328f4c5557e1f944d7f1860a1637b95ab1203f0e
 devImports: []

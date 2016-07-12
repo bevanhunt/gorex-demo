@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bevanhunt/gorex"
+	"github.com/bevanhunt/gowrex"
 )
 
 // JSONReceive - json response
@@ -29,7 +29,7 @@ func main() {
 		Body:   "this is a fancy book",
 		UserID: 12,
 	}
-	req, err := gorex.Request{
+	req, err := gowrex.Request{
 		URI:     "http://jsonplaceholder.typicode.com/posts",
 		Timeout: timeout}.PostJSON(jsonData)
 	if err != nil {
