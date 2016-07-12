@@ -1,4 +1,4 @@
-# GoRex JSON POST Example
+# Gowrex JSON POST Example
 
 ## Run
 - `glide install`
