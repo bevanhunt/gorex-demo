@@ -27,5 +27,8 @@ _testmain.go
 # for glide
 vendor
 
+# for bin
+gowrex-json-demo
+
 # for server
 server

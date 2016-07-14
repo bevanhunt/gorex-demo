@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"time"
 
 	"github.com/bevanhunt/gowrex"
@@ -33,11 +34,11 @@ func main() {
 		URI:     "http://jsonplaceholder.typicode.com/posts",
 		Timeout: timeout}.PostJSON(jsonData)
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 	}
 	res, err := req.Do()
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 	}
 	resp := &JSONReceive{}
 	res.JSON(resp)
